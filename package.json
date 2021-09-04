@@ -9,7 +9,7 @@
   "scripts": {
     "predev": "npx knex migrate:latest",
     "dev": "nodemon src/index.js",
-    "prestart": "npx knex migrate:latest",
+    
     "start": "node src/index.js"
   },
   "keywords": [],
