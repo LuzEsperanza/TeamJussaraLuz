@@ -34,7 +34,7 @@ module.exports = {
                 })
                 user[0].password = undefined
                 user[0].token = token
-                console.log(user[0])
+                console.log(user)
                 return response.json(user[0]);
             }
             throw new Error('Incorrect password')
