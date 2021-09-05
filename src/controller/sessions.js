@@ -41,7 +41,7 @@ module.exports = {
             if (err.message === 'Incorrect login' || err.message === 'Incorrect password') {
                 return response.status(400).json(err.message);
             }
-            return response.status(400).json('Error in the data expected for request!');
+            return response.status(400).json(user[0]);
         }
 
     },
